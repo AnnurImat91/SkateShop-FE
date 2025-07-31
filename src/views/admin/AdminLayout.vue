@@ -5,9 +5,11 @@
       <h1 class="text-xl font-bold mb-6">Admin Panel</h1>
       <ul class="space-y-3">
         <li><router-link to="/admin/dashboard" class="hover:underline">Dashboard</router-link></li>
-        <li><router-link to="/admin/users" class="hover:underline">Users</router-link></li>
         <li><router-link to="/admin/products" class="hover:underline">Products</router-link></li>
         <li><router-link to="/admin/orders" class="hover:underline">Orders</router-link></li>
+        <li><router-link to="/admin/categories" class="hover:underline">Category</router-link></li>
+        <li><router-link to="/admin/banks" class="hover:underline">Bank</router-link></li>
+        <li><router-link to="/admin/users" class="hover:underline">Users</router-link></li>
       </ul>
     </aside>
 
