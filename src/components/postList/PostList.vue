@@ -27,9 +27,9 @@
         <img :src="product.image_url || fallback" alt="product" class="w-full h-40 object-cover rounded" />
         <h3 class="text-lg font-semibold mt-2">{{ product.name }}</h3>
         <p class="text-gray-600">Rp {{ product.price.toLocaleString() }}</p>
-        <router-link :to="`/products/${product.id}`" class="mt-2 inline-block text-blue-600 hover:underline">
-          Lihat Detail
-        </router-link>
+        <router-link :to="`/product/${product.id}`" class="text-blue-600 hover:underline">
+  Lihat Detail
+</router-link>
       </div>
     </div>
   </section>

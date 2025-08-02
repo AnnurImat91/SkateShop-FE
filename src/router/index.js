@@ -43,6 +43,12 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/product/:id',
+    name: 'ProductDetail',
+    component: () => import('@/views/user/ProductDetail.vue')
+  }
+
   // routes lain nanti ditambah di sini
 ]
 
