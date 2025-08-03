@@ -1,13 +1,12 @@
 <template>
   <header class="bg-black text-white px-6 py-4 flex justify-between items-center relative z-50">
     <div class="flex items-center space-x-3">
-      <img src="" class="w-10 h-10" alt="Logo" />
       <span class="text-xl font-bold">Skateboard</span>
     </div>
     <div class="flex items-center space-x-4">
       <router-link to="/wishlist">🤍</router-link>
       <router-link to="/cart">🛒</router-link>
-      <router-link to="/login"> <span class="hidden sm:block">{{ user?.name || 'Guest' }}</span> </router-link>
+      <router-link to="/login"> <span class="hidden sm:block">{{ user?.name || 'Login' }}</span> </router-link>
 
       <div class="relative group">
         <button class="text-xl">☰</button>
